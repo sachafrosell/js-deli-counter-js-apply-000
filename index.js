@@ -15,4 +15,10 @@ function nowServing(currentLine) {
   }
 }
 
-function 
+function currentLine(currentLine) {
+  if (currentLine.length > 0) {
+    
+  } else {
+    return 
+  }
+}
