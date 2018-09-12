@@ -3,9 +3,10 @@ function takeANumber(currentLine, name) {
   for (let i = 1; i <= currentLine.length; i++) {
     if (currentLine[i] == name) {
       str = 'Welcome ' + name + '. You are number ' + i + ' in line.';
+       return str;
     }
   }
-  return str;
+
 }
 
 function nowServing(currentLine) {
