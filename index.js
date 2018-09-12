@@ -5,6 +5,7 @@ function takeANumber(currentLine, name) {
       str = 'Welcome ' + name + '. You are number ' + i + ' in line.';
     }
   }
+  return str;
 }
 
 function nowServing(currentLine) {
