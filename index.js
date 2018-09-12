@@ -7,6 +7,10 @@ function takeANumber(currentLine, name) {
 }
 
 function nowServing(currentLine) {
+  if (currentLine.length > 0) {
   var person = currentLine.shift();
   return person;
+  } else {
+    return 
+  }
 }
