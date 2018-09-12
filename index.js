@@ -16,9 +16,13 @@ function nowServing(currentLine) {
 }
 
 function currentLine(currentLine) {
+  var strOfName = '';
   if (currentLine.length > 0) {
-    
+    for (let i = 1; i <= currentLine.length; i++) {
+      strOfName += i + '. ' + currentLine[i] + ', '
+    }
+    return strOfName;
   } else {
-    return 
+    return "The line is currently empty."
   }
 }
