@@ -6,4 +6,6 @@ function takeANumber(currentLine, name) {
   }
 }
 
-function 
+function nowServing(currentLine) {
+  
+}
