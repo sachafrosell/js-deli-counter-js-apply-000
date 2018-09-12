@@ -1,7 +1,8 @@
 function takeANumber(currentLine, name) {
+  var str = '';
   for (let i = 1; i <= currentLine.length; i++) {
     if (currentLine[i] == name) {
-      return 'Welcome ' + name + '. You are number ' + i + ' in line.';
+      str = 'Welcome ' + name + '. You are number ' + i + ' in line.';
     }
   }
 }
