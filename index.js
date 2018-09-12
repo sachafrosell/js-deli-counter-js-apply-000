@@ -5,4 +5,11 @@ function takeANumber(currentLine, name) {
   return `Welcome, ${name}. You are number ${currentLine.length} in line.`
 }
 
-function nowServing()
+function nowServing(line) {
+  if(line.length === 0) {
+    return "There is nobody waiting to be served!"
+  } else {
+   
+    return "Currently serving " + line.shift();
+  }
+}
